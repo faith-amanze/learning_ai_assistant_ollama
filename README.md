@@ -102,3 +102,16 @@ You can list installed models with `ollama list`.
 - `requirements.txt` — Python dependencies
 - `.gitignore` — ignored files
 - `README.md` — this file
+## Run online with GitHub Codespaces
+
+You can test this project without installing anything locally:
+
+1. Open the repository on GitHub and click **Code → Codespaces → Create codespace on main**.
+2. Wait for the container to build (it installs Ollama and pulls `llama3.2:1b`).
+3. In the terminal run:
+   ```bash
+   python main.py
+   ```
+
+The devcontainer (`.devcontainer/`) handles installing Ollama and the model automatically.
+
